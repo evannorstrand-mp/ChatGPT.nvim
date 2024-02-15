@@ -1,4 +1,4 @@
-local vim = require("vim")
+
 
 WELCOME_MESSAGE = [[
 

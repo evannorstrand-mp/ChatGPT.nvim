@@ -2,7 +2,7 @@ local Session = require("chatgpt.flows.chat.session")
 local Prompts = require("chatgpt.prompts")
 local Chat = require("chatgpt.flows.chat.base")
 
-local vim = require("vim")
+
 
 local M = {
   chat = nil,

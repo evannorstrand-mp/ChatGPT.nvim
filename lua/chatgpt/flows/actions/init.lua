@@ -4,7 +4,7 @@ local ChatAction = require("chatgpt.flows.actions.chat")
 local CompletionAction = require("chatgpt.flows.actions.completions")
 local EditAction = require("chatgpt.flows.actions.edits")
 local Config = require("chatgpt.config")
-local vim = require("vim")
+
 local classes_by_type = {
   chat = ChatAction,
   completion = CompletionAction,

@@ -1,6 +1,6 @@
 local Popup = require("nui.popup")
 local Config = require("chatgpt.config")
-local vim = require("vim")
+
 local SystemWindow = Popup:extend("SystemWindow")
 
 function SystemWindow:init(options)

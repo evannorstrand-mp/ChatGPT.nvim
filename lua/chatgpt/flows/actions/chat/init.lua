@@ -20,7 +20,7 @@ local Api = require("chatgpt.api")
 local Utils = require("chatgpt.utils")
 local Config = require("chatgpt.config")
 local Edits = require("chatgpt.code_edits")
-local vim = require("vim")
+
 
 local ChatAction = classes.class(BaseAction)
 

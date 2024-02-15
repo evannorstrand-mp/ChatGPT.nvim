@@ -1,5 +1,5 @@
 -- Credits: https://github.com/charmbracelet/bubbles/blob/master/spinner/spinner.go
-local vim = require("vim")
+
 
 local Spinner = {}
 Spinner.__index = Spinner

@@ -1,4 +1,4 @@
-local vim = require("vim")
+
 local Config = require("chatgpt.config")
 
 local M = {}

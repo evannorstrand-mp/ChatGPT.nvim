@@ -3,7 +3,7 @@ local api = require("chatgpt.api")
 local module = require("chatgpt.module")
 local config = require("chatgpt.config")
 local signs = require("chatgpt.signs")
-local vim = require("vim")
+
 
 local M = {}
 

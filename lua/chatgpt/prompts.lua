@@ -8,7 +8,7 @@ local job = require("plenary.job")
 local Utils = require("chatgpt.utils")
 local Config = require("chatgpt.config")
 
-local vim = require("vim")
+
 
 local function defaulter(f, default_opts)
   default_opts = default_opts or {}
