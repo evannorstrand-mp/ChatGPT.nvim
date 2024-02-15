@@ -1,6 +1,6 @@
 -- ChatAction that can be used for actions of type "chat" in actions.json
 --
--- This enables the use of gpt-3.5-turbo in user defined actions,
+-- This enables the use of aiwingman in user defined actions,
 -- as this model only defines the chat endpoint and has no completions endpoint
 --
 -- Example action for your local actions.json:
@@ -10,7 +10,7 @@
 --     "opts": {
 --       "template": "Summarize the following text.\n\nText:\n\"\"\"\n{{input}}\n\"\"\"\n\nSummary:",
 --       "params": {
---         "model": "gpt-3.5-turbo"
+--         "model": "aiwingman"
 --       }
 --     }
 --   }
@@ -42,7 +42,7 @@ end
 
 function ChatAction:render_template()
   local input = self.strategy == STRATEGY_QUICK_FIX and self:get_selected_text_with_line_numbers()
-    or self:get_selected_text()
+      or self:get_selected_text()
   local data = {
     filetype = self:get_filetype(),
     input = input,
