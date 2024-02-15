@@ -1,7 +1,7 @@
 local classes = require("chatgpt.common.classes")
 local Path = require("plenary.path")
 local scan = require("plenary.scandir")
-
+local vim = require("vim")
 local Session = classes.class()
 
 local function get_current_date()

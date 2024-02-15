@@ -11,6 +11,8 @@ local Spinner = require("chatgpt.spinner")
 local Settings = require("chatgpt.settings")
 local Help = require("chatgpt.help")
 
+local vim = require("vim")
+
 EDIT_FUNCTION_ARGUMENTS = {
   function_call = {
     name = "apply_code_changes",

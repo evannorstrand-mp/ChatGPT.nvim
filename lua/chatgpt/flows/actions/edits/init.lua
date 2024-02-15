@@ -3,7 +3,7 @@ local BaseAction = require("chatgpt.flows.actions.base")
 local Api = require("chatgpt.api")
 local Utils = require("chatgpt.utils")
 local Config = require("chatgpt.config")
-
+local vim = require("vim")
 -- curl https://api.openai.com/v1/edits \
 --   -H "Content-Type: application/json" \
 --   -H "Authorization: Bearer $OPENAI_API_KEY" \

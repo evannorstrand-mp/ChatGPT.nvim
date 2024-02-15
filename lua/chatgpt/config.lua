@@ -1,6 +1,8 @@
+local vim = require("vim")
+
 WELCOME_MESSAGE = [[
- 
-     If you don't ask the right questions,
+
+      If you don't ask the right questions,
         you don't get the right answers.
                                       ~ Robert Half
 ]]

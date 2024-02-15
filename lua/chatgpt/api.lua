@@ -1,6 +1,7 @@
 local job = require("plenary.job")
 local Config = require("chatgpt.config")
 local logger = require("chatgpt.common.logger")
+local vim = require("vim")
 
 local Api = {}
 

@@ -6,6 +6,7 @@ local Config = require("chatgpt.config")
 local Session = require("chatgpt.flows.chat.session")
 local Utils = require("chatgpt.utils")
 local InputWidget = require("chatgpt.common.input_widget")
+local vim = require("vim")
 
 local namespace_id = vim.api.nvim_create_namespace("ChatGPTNS")
 

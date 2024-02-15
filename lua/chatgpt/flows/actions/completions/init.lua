@@ -3,7 +3,7 @@ local BaseAction = require("chatgpt.flows.actions.base")
 local Api = require("chatgpt.api")
 local Utils = require("chatgpt.utils")
 local Config = require("chatgpt.config")
-
+local vim = require("vim")
 -- curl code to insert code between prompt and suffix
 -- curl https://api.openai.com/v1/completions \
 --   -H "Content-Type: application/json" \

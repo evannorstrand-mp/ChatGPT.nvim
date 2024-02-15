@@ -1,3 +1,5 @@
+local vim = require("vim")
+
 local M = {}
 
 local ESC_FEEDKEY = vim.api.nvim_replace_termcodes("<ESC>", true, false, true)

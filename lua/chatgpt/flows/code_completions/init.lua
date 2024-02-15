@@ -2,6 +2,7 @@ local Api = require("chatgpt.api")
 local Utils = require("chatgpt.utils")
 local Signs = require("chatgpt.signs")
 local Spinner = require("chatgpt.spinner")
+local vim = require("vim")
 
 local M = {}
 

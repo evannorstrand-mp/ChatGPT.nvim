@@ -14,6 +14,8 @@ local Spinner = require("chatgpt.spinner")
 local Session = require("chatgpt.flows.chat.session")
 local SystemWindow = require("chatgpt.flows.chat.system_window")
 
+local vim = require("vim")
+
 QUESTION, ANSWER, SYSTEM = 1, 2, 3
 ROLE_ASSISTANT = "assistant"
 ROLE_SYSTEM = "system"
